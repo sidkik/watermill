@@ -6,9 +6,8 @@ import (
 
 	"github.com/ThreeDotsLabs/watermill"
 	"github.com/ThreeDotsLabs/watermill/components/cqrs"
-
+	"github.com/ThreeDotsLabs/watermill/components/cqrs/testdata"
 	"github.com/golang/protobuf/ptypes"
-
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -18,7 +17,7 @@ func TestProtobufMarshaler(t *testing.T) {
 
 	when, err := ptypes.TimestampProto(time.Now())
 	require.NoError(t, err)
-	eventToMarshal := &TestProtobufEvent{
+	eventToMarshal := &testdata.TestProtobufEvent{
 		Id:   watermill.NewULID(),
 		When: when,
 	}
@@ -26,12 +25,12 @@ func TestProtobufMarshaler(t *testing.T) {
 	msg, err := marshaler.Marshal(eventToMarshal)
 	require.NoError(t, err)
 
-	eventToUnmarshal := &TestProtobufEvent{}
+	eventToUnmarshal := &testdata.TestProtobufEvent{}
 	err = marshaler.Unmarshal(msg, eventToUnmarshal)
 	require.NoError(t, err)
 
 	assert.EqualValues(t, eventToMarshal.String(), eventToUnmarshal.String())
-	assert.Equal(t, msg.Metadata.Get("name"), "cqrs_test.TestProtobufEvent")
+	assert.Equal(t, msg.Metadata.Get("name"), "cqrs_test.testdata.TestProtobufEvent")
 }
 
 func TestProtobufMarshaler_Marshal_generated_name(t *testing.T) {
@@ -43,7 +42,7 @@ func TestProtobufMarshaler_Marshal_generated_name(t *testing.T) {
 
 	when, err := ptypes.TimestampProto(time.Now())
 	require.NoError(t, err)
-	eventToMarshal := &TestProtobufEvent{
+	eventToMarshal := &testdata.TestProtobufEvent{
 		Id:   watermill.NewULID(),
 		When: when,
 	}

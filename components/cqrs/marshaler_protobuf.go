@@ -5,8 +5,9 @@ import (
 
 	"github.com/ThreeDotsLabs/watermill"
 	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/golang/protobuf/proto"
 
-	"github.com/gogo/protobuf/proto"
+	// "github.com/gogo/protobuf/proto"
 	"github.com/pkg/errors"
 )
 

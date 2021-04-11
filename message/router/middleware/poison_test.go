@@ -5,16 +5,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/message/subscriber"
-	"github.com/ThreeDotsLabs/watermill/pubsub/gochannel"
+	"github.com/sidkik/watermill"
+	"github.com/sidkik/watermill/message/subscriber"
+	"github.com/sidkik/watermill/pubsub/gochannel"
 
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/sidkik/watermill/message"
 
-	"github.com/ThreeDotsLabs/watermill/message/router/middleware"
 	"github.com/pkg/errors"
+	"github.com/sidkik/watermill/message/router/middleware"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -6,8 +6,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/sidkik/watermill"
+	"github.com/sidkik/watermill/message"
 )
 
 // CommandHandler receives a command defined by NewCommand and handles it with the Handle method.

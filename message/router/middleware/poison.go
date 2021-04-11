@@ -1,9 +1,9 @@
 package middleware
 
 import (
-	"github.com/ThreeDotsLabs/watermill/message"
 	multierror "github.com/hashicorp/go-multierror"
 	"github.com/pkg/errors"
+	"github.com/sidkik/watermill/message"
 )
 
 // ErrInvalidPoisonQueueTopic occurs when the topic supplied to the PoisonQueue constructor is invalid.

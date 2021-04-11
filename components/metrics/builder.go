@@ -1,10 +1,10 @@
 package metrics
 
 import (
-	"github.com/ThreeDotsLabs/watermill/internal"
-	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/sidkik/watermill/internal"
+	"github.com/sidkik/watermill/message"
 )
 
 func NewPrometheusMetricsBuilder(prometheusRegistry prometheus.Registerer, namespace string, subsystem string) PrometheusMetricsBuilder {

@@ -1,4 +1,4 @@
-module github.com/ThreeDotsLabs/watermill/dev/validate-examples
+module github.com/sidkik/watermill/dev/validate-examples
 
 go 1.12
 

@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ThreeDotsLabs/watermill/components/metrics"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/sidkik/watermill/components/metrics"
 	"github.com/stretchr/testify/assert"
 )
 

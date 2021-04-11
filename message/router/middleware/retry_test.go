@@ -5,14 +5,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ThreeDotsLabs/watermill"
+	"github.com/sidkik/watermill"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/pkg/errors"
+	"github.com/sidkik/watermill/message"
 
-	"github.com/ThreeDotsLabs/watermill/message/router/middleware"
+	"github.com/sidkik/watermill/message/router/middleware"
 )
 
 func TestRetry_retry(t *testing.T) {

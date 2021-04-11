@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/sidkik/watermill/message"
 )
 
 type benchSubscriber struct {

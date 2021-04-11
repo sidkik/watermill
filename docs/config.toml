@@ -14,7 +14,7 @@ googleAnalytics = "UA-128588911-2"
 [Params]
   RSSLink = "/index.xml"
   author = "Three Dots Labs"
-  github = "https://github.com/ThreeDotsLabs/"
+  github = "https://github.com/sidkik/"
   email = "robert.laszczak@threedotslabs.com"
   images = ["https://threedots.tech/watermill-io/watermill-logo.png"]
 
@@ -33,7 +33,7 @@ googleAnalytics = "UA-128588911-2"
 [[menu.main]]
     name = "Examples"
     weight = 100
-    url = "https://github.com/ThreeDotsLabs/watermill/tree/master/_examples"
+    url = "https://github.com/sidkik/watermill/tree/master/_examples"
 [[menu.main]]
     name = "Support"
     weight = 0

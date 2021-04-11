@@ -22,16 +22,16 @@ on some kind of message queue.
 The SQL publisher simply inserts consumed messages into the chosen table. A common approach would be to use it as a persistent
 log of events that were published on a queue with short message expiration time.
 
-See also the [SQL example](https://github.com/ThreeDotsLabs/watermill/tree/master/_examples/pubsubs/sql).
+See also the [SQL example](https://github.com/sidkik/watermill/tree/master/_examples/pubsubs/sql).
 
 #### Characteristics
 
-| Feature             | Implements | Note |
-| ------------------- | ---------- | ---- |
+| Feature             | Implements | Note                                      |
+| ------------------- | ---------- | ----------------------------------------- |
 | ConsumerGroups      | yes        | See `ConsumerGroup` in `SubscriberConfig` |
-| ExactlyOnceDelivery | yes        | |
-| GuaranteedOrder     | yes        | |
-| Persistent          | yes        | |
+| ExactlyOnceDelivery | yes        |                                           |
+| GuaranteedOrder     | yes        |                                           |
+| Persistent          | yes        |                                           |
 
 #### Schema
 

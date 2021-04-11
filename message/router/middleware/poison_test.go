@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ThreeDotsLabs/watermill"
+	"github.com/sidkik/watermill"
 	"github.com/sidkik/watermill/message/subscriber"
 	"github.com/sidkik/watermill/pubsub/gochannel"
 

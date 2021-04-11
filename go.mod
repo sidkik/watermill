@@ -1,10 +1,8 @@
 module github.com/sidkik/watermill
 
 require (
-	github.com/ThreeDotsLabs/watermill v1.1.1
 	github.com/cenkalti/backoff/v3 v3.0.0
 	github.com/go-chi/chi v4.0.2+incompatible
-	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.0
 	github.com/google/uuid v1.1.1
 	github.com/hashicorp/go-multierror v1.0.0
@@ -14,6 +12,8 @@ require (
 	github.com/prometheus/client_golang v1.0.0
 	github.com/prometheus/procfs v0.0.3 // indirect
 	github.com/stretchr/testify v1.4.0
+	golang.org/x/sys v0.0.0-20200930185726-fdedc70b468f // indirect
+	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/protobuf v1.26.0
 )
 

@@ -4,8 +4,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/ThreeDotsLabs/watermill"
 	"github.com/ThreeDotsLabs/watermill-amqp/pkg/amqp"
+	"github.com/sidkik/watermill"
 	"github.com/sidkik/watermill/message"
 )
 

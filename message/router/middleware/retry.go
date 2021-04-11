@@ -6,7 +6,7 @@ import (
 
 	"github.com/cenkalti/backoff/v3"
 
-	"github.com/ThreeDotsLabs/watermill"
+	"github.com/sidkik/watermill"
 	"github.com/sidkik/watermill/message"
 )
 

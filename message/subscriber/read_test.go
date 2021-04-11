@@ -6,7 +6,7 @@ import (
 
 	"github.com/sidkik/watermill/pubsub/tests"
 
-	"github.com/ThreeDotsLabs/watermill"
+	"github.com/sidkik/watermill"
 	"github.com/sidkik/watermill/message"
 	"github.com/sidkik/watermill/message/subscriber"
 	"github.com/stretchr/testify/assert"

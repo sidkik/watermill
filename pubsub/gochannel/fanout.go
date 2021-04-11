@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ThreeDotsLabs/watermill"
+	"github.com/sidkik/watermill"
 	"github.com/sidkik/watermill/message"
 )
 

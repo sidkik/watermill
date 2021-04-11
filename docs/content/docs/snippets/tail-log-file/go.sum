@@ -1,5 +1,5 @@
-github.com/ThreeDotsLabs/watermill v1.0.0-rc.2 h1:DCKR8kSLHUyZny6LiKtO7h+IZPMo0t9x786FOZmoAh4=
-github.com/ThreeDotsLabs/watermill v1.0.0-rc.2/go.mod h1:gjVFKc8aN+vmEHw3pA0kh4mmuwHe02nyfghb6IWWiKE=
+github.com/sidkik/watermill v1.0.0-rc.2 h1:DCKR8kSLHUyZny6LiKtO7h+IZPMo0t9x786FOZmoAh4=
+github.com/sidkik/watermill v1.0.0-rc.2/go.mod h1:gjVFKc8aN+vmEHw3pA0kh4mmuwHe02nyfghb6IWWiKE=
 github.com/ThreeDotsLabs/watermill-io v1.0.1 h1:xOjCoyr5xdUmc84M2T1bB4OQ4OabvGCXpKjo7W53BYg=
 github.com/ThreeDotsLabs/watermill-io v1.0.1/go.mod h1:yso9y/DzCoEqymrM9jDFHgksaDz83NADML5veQfGgc0=
 github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=

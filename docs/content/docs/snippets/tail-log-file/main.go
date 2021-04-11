@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ThreeDotsLabs/watermill"
 	"github.com/ThreeDotsLabs/watermill-io/pkg/io"
+	"github.com/sidkik/watermill"
 	"github.com/sidkik/watermill/message"
 )
 

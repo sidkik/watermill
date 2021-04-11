@@ -3,7 +3,7 @@ module github.com/sidkik/watermill/tools/mill
 require (
 	cloud.google.com/go v0.38.0
 	github.com/Shopify/sarama v1.23.1
-	github.com/ThreeDotsLabs/watermill v1.0.0-rc.2
+	github.com/sidkik/watermill v1.0.0-rc.2
 	github.com/ThreeDotsLabs/watermill-amqp v1.0.1
 	github.com/ThreeDotsLabs/watermill-googlecloud v1.0.1
 	github.com/ThreeDotsLabs/watermill-io v1.0.1

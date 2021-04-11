@@ -16,7 +16,7 @@ import (
 
 	internalSubscriber "github.com/sidkik/watermill/internal/subscriber"
 
-	"github.com/ThreeDotsLabs/watermill"
+	"github.com/sidkik/watermill"
 	"github.com/sidkik/watermill/internal"
 	"github.com/sidkik/watermill/message"
 	"github.com/sidkik/watermill/message/subscriber"

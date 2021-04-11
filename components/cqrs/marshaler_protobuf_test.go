@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ThreeDotsLabs/watermill"
 	"github.com/golang/protobuf/ptypes"
+	"github.com/sidkik/watermill"
 	"github.com/sidkik/watermill/components/cqrs"
 	"github.com/sidkik/watermill/components/cqrs/testdata"
 	"github.com/stretchr/testify/assert"

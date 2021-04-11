@@ -1,9 +1,9 @@
 package cqrs
 
 import (
-	"github.com/ThreeDotsLabs/watermill"
 	"github.com/hashicorp/go-multierror"
 	"github.com/pkg/errors"
+	"github.com/sidkik/watermill"
 	"github.com/sidkik/watermill/message"
 )
 

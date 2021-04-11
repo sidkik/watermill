@@ -15,7 +15,7 @@ import (
 
 	"github.com/ThreeDotsLabs/watermill"
 	watermillHTTP "github.com/ThreeDotsLabs/watermill-http/pkg/http"
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/sidkik/watermill/message"
 )
 
 var generatedTags = []string{"watermill", "golang", "pubsub", "unicorn", "HelloWorld", "example", "ThreeDotsLabs"}

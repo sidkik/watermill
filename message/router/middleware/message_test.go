@@ -2,8 +2,8 @@ package middleware_test
 
 import (
 	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/pkg/errors"
+	"github.com/sidkik/watermill/message"
 )
 
 type mockPublisherBehaviour int

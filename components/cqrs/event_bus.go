@@ -3,8 +3,8 @@ package cqrs
 import (
 	"context"
 
-	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/pkg/errors"
+	"github.com/sidkik/watermill/message"
 )
 
 // EventBus transports events to event handlers.

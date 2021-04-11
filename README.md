@@ -1,9 +1,9 @@
 # Watermill
 <img align="right" width="200" src="https://threedots.tech/watermill-io/watermill-logo.png">
 
-[![CircleCI](https://circleci.com/gh/ThreeDotsLabs/watermill/tree/master.svg?style=svg)](https://circleci.com/gh/ThreeDotsLabs/watermill/tree/master)
+[![CircleCI](https://circleci.com/gh/sidkik/watermill/tree/master.svg?style=svg)](https://circleci.com/gh/sidkik/watermill/tree/master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/ThreeDotsLabs/watermill)](https://goreportcard.com/report/github.com/ThreeDotsLabs/watermill)
-[![codecov](https://codecov.io/gh/ThreeDotsLabs/watermill/branch/master/graph/badge.svg)](https://codecov.io/gh/ThreeDotsLabs/watermill)
+[![codecov](https://codecov.io/gh/sidkik/watermill/branch/master/graph/badge.svg)](https://codecov.io/gh/ThreeDotsLabs/watermill)
 
 Watermill is a Go library for working efficiently with message streams. It is intended
 for building event driven applications, enabling event sourcing, RPC over messages,
@@ -106,8 +106,8 @@ Please check our [contributing guide](CONTRIBUTING.md).
 
 Watermill v1.0.0 has been released and is production-ready. The public API is stable and will not change without changing the major version.
 
-To ensure that all Pub/Subs are stable and safe to use in production, we created a [set of tests](https://github.com/ThreeDotsLabs/watermill/blob/master/pubsub/tests/test_pubsub.go#L34) that need to pass for each of the implementations before merging to master.
-All tests are also executed in [*stress*](https://github.com/ThreeDotsLabs/watermill/blob/master/pubsub/tests/test_pubsub.go#L171) mode - that means that we are running all the tests **20x** in parallel.
+To ensure that all Pub/Subs are stable and safe to use in production, we created a [set of tests](https://github.com/sidkik/watermill/blob/master/pubsub/tests/test_pubsub.go#L34) that need to pass for each of the implementations before merging to master.
+All tests are also executed in [*stress*](https://github.com/sidkik/watermill/blob/master/pubsub/tests/test_pubsub.go#L171) mode - that means that we are running all the tests **20x** in parallel.
 
 All tests are run with the race condition detector enabled (`-race` flag in tests).
 

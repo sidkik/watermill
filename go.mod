@@ -1,6 +1,7 @@
-module github.com/ThreeDotsLabs/watermill
+module github.com/sidkik/watermill
 
 require (
+	github.com/ThreeDotsLabs/watermill v1.1.1
 	github.com/cenkalti/backoff/v3 v3.0.0
 	github.com/go-chi/chi v4.0.2+incompatible
 	github.com/gogo/protobuf v1.3.2 // indirect

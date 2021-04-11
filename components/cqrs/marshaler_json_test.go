@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/components/cqrs"
+	"github.com/sidkik/watermill/components/cqrs"
 )
 
 var jsonEventToMarshal = TestEvent{

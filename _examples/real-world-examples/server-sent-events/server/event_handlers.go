@@ -7,9 +7,9 @@ import (
 
 	"github.com/ThreeDotsLabs/watermill"
 	"github.com/ThreeDotsLabs/watermill-nats/pkg/nats"
-	"github.com/ThreeDotsLabs/watermill/message"
-	"github.com/ThreeDotsLabs/watermill/message/router/middleware"
 	"github.com/nats-io/stan.go"
+	"github.com/sidkik/watermill/message"
+	"github.com/sidkik/watermill/message/router/middleware"
 )
 
 const (

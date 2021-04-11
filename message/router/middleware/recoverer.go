@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"runtime/debug"
 
-	"github.com/ThreeDotsLabs/watermill/message"
 	multierror "github.com/hashicorp/go-multierror"
 	"github.com/pkg/errors"
+	"github.com/sidkik/watermill/message"
 )
 
 type RecoveredPanicError struct {

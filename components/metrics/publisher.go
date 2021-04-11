@@ -3,8 +3,8 @@ package metrics
 import (
 	"time"
 
-	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/sidkik/watermill/message"
 )
 
 var (

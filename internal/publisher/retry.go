@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/sidkik/watermill/message"
 
 	"github.com/pkg/errors"
 )

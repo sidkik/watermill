@@ -20,14 +20,14 @@ Note that these aren't full-fledged Pub/Subs like Kafka, RabbitMQ, or the likes,
 
 #### Characteristics
 
-This is a very bare-bones implementation for now, so no extra features are supported. However, it is still sufficient for applications like a [CLI producer/consumer](https://github.com/ThreeDotsLabs/watermill/tree/master/tools/mill).
+This is a very bare-bones implementation for now, so no extra features are supported. However, it is still sufficient for applications like a [CLI producer/consumer](https://github.com/sidkik/watermill/tree/master/tools/mill).
 
-| Feature | Implements | Note |
-| ------- | ---------- | ---- |
-| ConsumerGroups | no |       |
-| ExactlyOnceDelivery | no |  |
-| GuaranteedOrder | no |  |
-| Persistent | no |   |
+| Feature             | Implements | Note |
+| ------------------- | ---------- | ---- |
+| ConsumerGroups      | no         |      |
+| ExactlyOnceDelivery | no         |      |
+| GuaranteedOrder     | no         |      |
+| Persistent          | no         |      |
 
 #### Configuration
 

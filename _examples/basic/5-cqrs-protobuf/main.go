@@ -13,9 +13,9 @@ import (
 
 	"github.com/ThreeDotsLabs/watermill"
 	"github.com/ThreeDotsLabs/watermill-amqp/pkg/amqp"
-	"github.com/ThreeDotsLabs/watermill/components/cqrs"
-	"github.com/ThreeDotsLabs/watermill/message"
-	"github.com/ThreeDotsLabs/watermill/message/router/middleware"
+	"github.com/sidkik/watermill/components/cqrs"
+	"github.com/sidkik/watermill/message"
+	"github.com/sidkik/watermill/message/router/middleware"
 )
 
 // BookRoomHandler is a command handler, which handles BookRoom command and emits RoomBooked.

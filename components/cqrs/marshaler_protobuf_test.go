@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/components/cqrs"
-	"github.com/ThreeDotsLabs/watermill/components/cqrs/testdata"
 	"github.com/golang/protobuf/ptypes"
+	"github.com/sidkik/watermill/components/cqrs"
+	"github.com/sidkik/watermill/components/cqrs/testdata"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

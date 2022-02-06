@@ -1,5 +1,6 @@
 syntax = "proto3";
 package main;
+option go_package = "github.com/ThreeDotsLabs/watermill/_examples/basic/5-cqrs-protobuf;main";
 
 import "google/protobuf/timestamp.proto";
 
